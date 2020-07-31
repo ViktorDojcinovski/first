@@ -17,17 +17,22 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="./css/first.css" />
 
     <meta name="theme-color" content="#fafafa" />
   </head>
 
-  <body>
+  <body style="font-size: 30px;">
     <!-- Add your site or application content here -->
-    <header style="text-align: center;">
-      <h1>Viktor Dojchinovski's Portfolio</h1>
+    <header>
+      <h1 class="inside double-inside" id="second">
+        Viktor Dojchinovski's Portfolio
+        <span class="inside">2020 <strong class="month">August</strong></span>
+      </h1>
+      <p>web developer <span></span></p>
       <img src="./img/avatar.png" alt="Avatar" title="Avatar" width="250" />
     </header>
-    <main>
+    <main id="main" class="first">
       <a href="/second.html">Go to second page</a>
       <h2>My social networks:</h2>
       <ul>
@@ -38,7 +43,7 @@
         <li>Instagram:</li>
       </ul>
     </main>
-    <footer style="text-align: center;">
+    <footer class="first">
       <span>Viktor Dojchinovski 2020-2021</span>
     </footer>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>

@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1.inside {
+  color: green;
+}
+
+h1 .inside {
+  color: red;
+}
+
+h1 .inside .month {
+  color: pink;
+}
+
+a {
+  font-weight: bold;
+}
+
+input:required {
+  border: 2px solid;
+}
+
+/* .viktor {
+  color: blue;
+}
+
+#second {
+  color: yellow;
+} */
