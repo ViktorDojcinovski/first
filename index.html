@@ -16,34 +16,39 @@
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="./css/first.css" />
 
     <meta name="theme-color" content="#fafafa" />
   </head>
 
-  <body style="font-size: 30px;">
+  <body style="font-size: 30px">
     <!-- Add your site or application content here -->
     <header>
-      <h1>
-        Viktor Dojchinovski's Portfolio
-        <span class="inside">2020 <strong class="month">August</strong></span>
-      </h1>
-      <h2>web developer</h2>
+      <h1></h1>
+      <div class="container">
+        <div class="row">
+          <p class="col-sm-10 col-lg-6">web developer</p>
+          <p class="col-sm-12 col-lg-6">web developer 2</p>
+        </div>
+        <div class="row">
+          <p class="col-6">web developer 3</p>
+          <p class="col-6">web developer 4</p>
+        </div>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
       <img src="./img/avatar.png" alt="Avatar" title="Avatar" width="250" />
     </header>
     <main id="main" class="first">
       <h2>My social networks:</h2>
       <ul class="social-networks">
-        <a href="https://facebook.com"
-          ><li><img src="img/fb.png" />Facebook</li></a
-        >
-        <a href="https://twitter.com"
-          ><li><img src="img/twitter.png" />Twitter</li></a
-        >
-        <a href="https://instagram.com"
-          ><li><img src="img/instagram.png" />Instagram</li></a
-        >
+        <li><img src="img/fb.png" />Facebook</li>
+        <li><img src="img/twitter.png" />Twitter</li>
+        <li><img src="img/instagram.png" />Instagram</li>
       </ul>
       <h2>My Biography</h2>
       <blockquote>
@@ -67,7 +72,8 @@
     </footer>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/hello.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
