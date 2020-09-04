@@ -1,15 +1,31 @@
 /* Variable declaration statement */
 let hello;
+hello = "Hello";
+let world = "World";
+
 let result;
 let number = 20;
-hello = "Hello World 2020";
 
-15 + 15; // 30
+15 + 15; // console.log() --> 60
 
-"Hello " + "World"; // "Hello World"
+//Concation operation on strings
+"Hello " + 5; // "Hello 5"
+let concatenation = hello + world;
 
 let bolleanVariable = true;
 let bolleanVariableF = false;
+
+// OR AND
+
+if (hello != "Hello" || number <= 20 || world !== "Underworld") {
+  console.log("hello world");
+} else {
+  console.log("Hello Underworld");
+}
+
+//console.log(typeof number); --> "number"
+
+//console.log(hello instanceof String) --> true or false
 
 result = 0;
 console.log("Rezultatot e: " + result);
