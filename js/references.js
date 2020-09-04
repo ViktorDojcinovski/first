@@ -3,6 +3,7 @@ k: name v: your name
 k: age v: your age
 k: address v: your address (as Object) --> k: street v: your street name k: number v: your street number k: city v: your city
 */
+console.log("something");
 
 /* Write few arrays that consists of these elements:
 1. list of numbers from 1 to 10
