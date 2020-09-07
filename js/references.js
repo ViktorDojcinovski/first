@@ -3,13 +3,14 @@ k: name v: your name
 k: age v: your age
 k: address v: your address (as Object) --> k: street v: your street name k: number v: your street number k: city v: your city
 */
-console.log("something");
+let myInfo = { name: "Viktor", age: 37, addres: { street: "taa i taa" } };
 
 /* Write few arrays that consists of these elements:
 1. list of numbers from 1 to 10
 2. list of names
 3. mixed content
 */
+let numbers = [1, 2, 3, ...10];
 
 /* Assign the created object and array to new variables. 
 Then try to change some values inside this newly created complex data structures with this sintax:
@@ -21,6 +22,15 @@ Then try to change some values inside this newly created complex data structures
     NewArray[index] = some value; (NewArray is the newly created array after the assignment expression)
 
 */
+
+let newObject = new Object();
+let newArray = new Array();
+
+newObject = myInfo;
+newArray = names;
+
+newObject.name = "Dojchin";
+newArray[0] = "Dojchin";
 
 /* Expected results */
 //console.log(OriginalObject) --> ?
