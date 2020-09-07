@@ -34,7 +34,7 @@ newArray[0] = "Dojchin";
 
 /* Expected results */
 //console.log(OriginalObject) --> ?
-//console.log(OriginalArrray) --> ?
+//console.log(names) --> ?
 //console.log(NewObject) --> ?
 //console.log(NewArray) --> ?
 

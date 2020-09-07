@@ -1,5 +1,5 @@
 /* Variable declaration statement */
-let hello;
+let hello, goodbay;
 hello = "Hello";
 let world = "World";
 
