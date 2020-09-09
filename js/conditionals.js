@@ -4,11 +4,15 @@ log "Sorry, you are missing at least one value"
 */
 
 /* Write a program which is very similar to the first just instead of the if-else structure use
-if-elseif-else structure
+if-elseif-else structure (var, const, let)
 */
+let p;
+let o;
 let a;
 
-console.log("a e: " + a);
+p = "Viktor";
+o = { first: "1", second: "2" };
+a = ["1", "2"];
 
 //true && true --> true;
 //true && false --> false;
@@ -16,7 +20,7 @@ console.log("a e: " + a);
 
 // in JavaScript undefind --> false
 
-if (a && (b || c)) {
+if (a.first == "1" && (b || c)) {
   console.log(a + b);
 } else if (a && b && c) {
   console.log(a + b + c);
