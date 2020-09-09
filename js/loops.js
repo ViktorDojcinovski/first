@@ -32,8 +32,8 @@ that will execute those functions. In the first loop use the iterating value ins
 */
 
 let arr = [];
-
-for (var i = 0; i < 3; i++) {
+let i;
+for (let i = 0; i < 3; i++) {
   arr[i] = function () {
     return i;
   };
