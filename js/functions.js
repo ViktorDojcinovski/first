@@ -1,10 +1,20 @@
+function add(a, b) {
+  return a + b;
+}
+
+let c = add(2, 2); // --> 4
+
+console.log(c); // --> 4
+
 /* Declare a function which will have two parameters and after its 
 execution will return the concatenatenated string from the 
 given arguments. Try to check if the arguments are really strings.
 If they are not return "Sorry, wrong parmeters given!"
 */
 
-/* Try to find put why the following function is impure, and after that
+/* typeof */
+
+/* Try to find why the following function is impure, and after that
 convert the same function to pure function.
 */
 let house = "";
@@ -17,8 +27,6 @@ function buildHouse() {
       house += part + "--";
     }
   }
-
-  return;
 }
 
 buildHouse();
