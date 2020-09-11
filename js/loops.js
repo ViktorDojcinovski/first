@@ -21,7 +21,7 @@ let person = {
 };
 
 for (let n in person.address) {
-  console.log(n);
+  console.log(person.address[n]);
 }
 /* Write for in loop for the following object {a: 1, b: 2, c: 3} that will log the following:
 "a is 1" "b is 2" "c is 3"
