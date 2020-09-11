@@ -1,4 +1,4 @@
-/* Declare a function which will have to parameters and after its 
+/* Declare a function which will have two parameters and after its 
 execution will return the concatenatenated string from the 
 given arguments. Try to check if the arguments are really strings.
 If they are not return "Sorry, wrong parmeters given!"
