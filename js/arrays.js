@@ -34,7 +34,7 @@ person.walk();
 
 a.forEach(function () {});
 
-// a.splice && a.slice() -- > Bojan
+// a.splice && a.slice()
 
 /* Create a menu-like structure inside the current project with the help of the forEach array method.
 During the creation, callback function should check if any of the array element is empty, and if it is
@@ -42,15 +42,18 @@ should skip it. The menu array itself does not hold the "home" and "contact" ite
 start and at the end position of the menu like structure, so they have to be added programmaticaly.
 */
 
-// let menu = "";
-// let arr = ["about", "services"];
+let menu = "";
+let arr = ["about", "services"];
 // let nav = document.getElementById("main-menu");
 
 // "<li>home</li><li>about</li>..."
-/*
-arr.forEach(function() {
-    menu += "<li>" + ... + </li>
-})
-*/
 
-// nav.innerHTML = menu;
+function pure() {
+  return arr.slice(0, 2);
+}
+
+function pure() {
+  return arr.splice();
+}
+
+let newArr = pure(arr);
