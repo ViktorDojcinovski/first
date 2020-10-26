@@ -6,6 +6,11 @@
  */
 
 /**
+ * 1 foot = 30.48 cm
+ * 1 inch = 2.54cm
+ */
+
+/**
  * 2. Write a to-do list application, which renders a list of
  * inserted to-do items, and has an interface for deleting
  * and editing the todos.

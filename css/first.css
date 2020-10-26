@@ -1,4 +1,10 @@
+body {
+  /* vh - viewport heigh, vw - viewport width, vmax - max(vh, vw) */
+  height: 100vh;
+}
+
 h2 {
+  backgorund-color: red;
   box-sizing: border-box;
   text-align: center;
   color: black;

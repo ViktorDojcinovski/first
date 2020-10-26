@@ -89,6 +89,17 @@ let cars = [
 //   [5, 1, 6],
 //   [9, 3, 7, 2, 4],
 // ];
+// let newarr = [];
+
+// numbers.flat().forEach((el) => {
+//   if (newarr.indexOf(el) == -1) {
+//     newarr.push(el);
+//   }
+// });
+
+// newarr.sort();
+
+// console.log(newarr);
 
 /**
  * 5. Write JS program that will find the longest word from a given string.
@@ -96,18 +107,18 @@ let cars = [
  * ex. "I am student in the CodeAcademy school." returns "CodeAcademy"
  */
 
-let str = "I am student in the CodeAcademy schoollalalala.";
+// let str = "I am student in the CodeAcademy schoollalalala.";
 
-let a = str.split(" ");
-let word = "";
+// let a = str.split(" ");
+// let word = "";
 
-a.forEach((el) => {
-  if (el.length > word.length) {
-    word = el;
-  }
-});
+// a.forEach((el) => {
+//   if (el.length > word.length) {
+//     word = el;
+//   }
+// });
 
-console.log(word);
+// console.log(word);
 
 /**
  * 6. Write JS program that will compare two arrays and will return array
@@ -116,15 +127,47 @@ console.log(word);
  * ex. ["apple", "watermelon", "lemon", "pear"], ["pear", "orange", "grape", "lemon"] returns ["pear", "lemon"]
  */
 
+// let a = ["apple", "watermelon", "lemon", "pear"];
+// let b = ["pear", "orange", "grape", "lemon"];
+
+// a.push("plum");
+
+// let c = a.filter((el) => {
+//   // when el === "pear" ==> b.indexOf = 0
+//   return b.includes(el);
+// });
+
+// console.log(c);
+
 /**
  * 7. Write JS program that will render a button inside a HTML document
  * and when clicked it will change the background-color of the
  * top-level tag rendered in that document(ex. the body tag).
  */
 
+let button;
+let topLevelTag;
+let color = "#fff";
+
+button = document.getElementById("btn");
+topLevelTag = document.getElementsByTagName("body")[0];
+
+// console.log(button);
+// console.log(topLevelTag);
+
+button.addEventListener("click", function (e) {
+  return onClick(e, topLevelTag, "red");
+});
+
+function onClick(e, el, color) {
+  e.preventDefault();
+
+  el.style.backgroundColor = color;
+}
+
 /**
  * 8. Write JS program that will generate a random quote from the given
- * list of quotes, and it will display into the browsera, and alongside
+ * list of quotes, and it will display into the browser, and alongside
  * it will also list the name of the man behind.
  */
 
@@ -165,6 +208,8 @@ const quotes = [
  * they are if they are capitalized.
  *
  * ex. "Head, shoulders, nees and Toes" returns "Head, Shoulders, Nees And Toes"
+ *
+ * hint: use method toUpperString()
  */
 
 /**
@@ -173,4 +218,19 @@ const quotes = [
  * if there is no such word it will return "Sorry, no word found";
  *
  * ex. filter(["Wood", "Iron", "Towel", "Bridge"], "w") returns ["Wood", "Towel"]
+ *
+ * hint: use method indexOf() on strings
+ *
+ * function findLetter (arr, letter) {
+ *  arr.forEach(() => {
+ *    el.oindexOf(letter) != -1
+ *   })
+ *
+ *   return newarr;
+ * }
  */
+
+//  let arr = [12, 123, 412];
+//  let word = "trtratr";
+
+//  console.log(findLetter(arr, word))
